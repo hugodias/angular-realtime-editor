@@ -1,0 +1,9 @@
+/* line 2, main.sass */
+.list-parents li {
+  cursor: pointer;
+}
+
+/* line 6, main.sass */
+.list-files li {
+  cursor: pointer;
+}

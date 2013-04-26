@@ -1,0 +1,14 @@
+<div>
+  <div ng-show="editting">
+    <h1>{{Code[current_index].name}}</h1>
+    <textarea  ui-codemirror="{theme:'monokai'}" ng-model="Code[current_index].code">{{Code[current_index].code}}</textarea>
+  </div>
+
+  <div ng-hide="editting">
+    <div class="hero-unit">
+      <h1>
+        << Select or create a new file
+      </h1>
+    </div>
+  </div>
+</div>
